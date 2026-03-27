@@ -1,10 +1,16 @@
-J & O CaringHands is a professional web platform developed for a Home Care Service Agency, LLC. The site serves as the primary digital interface for clients seeking compassionate care and for agents looking to join a licensed service team. The project emphasizes high-quality user engagement, clear service communication, and a secure communication funnel.
+# React + Vite
 
-Core Functionalities & Technical Implementation
-Service-Oriented UI/UX: Designed a clean, mobile-responsive interface focused on accessibility for families and healthcare professionals.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Automated Lead Generation: Developed a custom PHP Mailer integration that securely processes service inquiries and employment applications directly from the web interface.
+Currently, two official plugins are available:
 
-Dynamic Content Delivery: Used PHP to manage and serve company mission statements, service lists, and agent recruitment sections, ensuring the site is easy to update as the business grows.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Cross-Browser Optimization: Implemented modern CSS techniques (Flexbox/Grid) to ensure a consistent experience across Chrome, Safari, and mobile browsers.
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
